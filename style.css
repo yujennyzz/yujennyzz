@@ -1,0 +1,62 @@
+body {
+	background-color: #ffeeff
+}
+div.container {
+	width: 100%;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li {
+	float: left;
+}
+li a {
+	display: inline-block;
+	color: grey;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+div.body {
+	width: 100%;
+}
+header, footer {
+	color: grey;
+	text-align: left;
+}
+article {
+	margin-left: 70px;
+	margin-right: 350px;
+	padding: 1em overflow: hidden;
+}
+.hexagon {
+	position: relative;
+	width: 300px;
+	height: 173.21px;
+	background-color: #64C7CC;
+	margin: 86.60px 0;
+	display: inline-block
+	margin-right: 10px
+}
+.hexagon:before, .hexagon:after {
+	content: "";
+	position: absolute;
+	width: 0;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
+}
+.hexagon:before {
+	bottom: 100%;
+	border-bottom: 86.60px solid #64C7CC;
+}
+.hexagon:after {
+	top: 100%;
+	width: 0;
+	border-top: 86.60px solid #64C7CC;
+}
